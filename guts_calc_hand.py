@@ -1,3 +1,5 @@
+# Also legacy code, can be used to figure out multi card or player logic
+
 from guts_deck import *
 
 deck = Deck()
