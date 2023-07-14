@@ -1,3 +1,5 @@
+# Program that stores all the variables that I may reference multiple times.
+
 import pygame as pygame
 
 display_width = 1200
@@ -26,3 +28,4 @@ CARD_BACK_SIZE = (72, 96)
 CARD_BACK_CENTER = (36, 48)
 
 ANTE = 10
+STARTSTACK = 300
