@@ -17,6 +17,7 @@ pygame.init()
 fontName = "calibri"
 font = pygame.font.SysFont(fontName, 20)
 textfont = pygame.font.SysFont(fontName, 35)
+path = "/Users/davidjiang/cs/guts/"
 
 
 SUITS = ['C', 'S', 'H', 'D']
