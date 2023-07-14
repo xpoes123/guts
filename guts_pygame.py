@@ -120,11 +120,11 @@ class Play:
         self.player.display_cards()
         self.player_card = 1
 
-        dealer_card = pygame.image.load('img/back.png').convert()
-        dealer_card_2 = pygame.image.load('img/back.png').convert()
+        dealer_card = pygame.image.load(path + 'img/back.png').convert()
+        dealer_card_2 = pygame.image.load(path + 'img/back.png').convert()
             
-        player_card = pygame.image.load('img/' + self.player.card_img[0] + '.png').convert()
-        player_card_2 = pygame.image.load('img/' + self.player.card_img[1] + '.png').convert()
+        player_card = pygame.image.load(path + 'img/' + self.player.card_img[0] + '.png').convert()
+        player_card_2 = pygame.image.load(path + 'img/' + self.player.card_img[1] + '.png').convert()
 
         game_texts("Op's hand is:", 500, 150)
         chip_texts("Op chip count is:", 500, 75, self.opChips)
@@ -157,8 +157,8 @@ class Play:
         # If the computer holds
         if(self.opHold):
             # Displays the cards for the computer since they held
-            op_card = pygame.image.load('img/' + self.dealer.card_img[0] + '.png').convert()
-            op_card_2 = pygame.image.load('img/' + self.dealer.card_img[1] + '.png').convert()
+            op_card = pygame.image.load(path + 'img/' + self.dealer.card_img[0] + '.png').convert()
+            op_card_2 = pygame.image.load(path + 'img/' + self.dealer.card_img[1] + '.png').convert()
             screen.blit(op_card, (400, 200))
             screen.blit(op_card_2, (550, 200))
 
